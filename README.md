@@ -7,7 +7,9 @@ This generator generates a generator that makes it possible to use TypeScript to
 	npm install -g generator-typescript-generator
 
 ## usage
-
+	
+	mkdir AwesomeGenerator
+	cd AwesomeGenerator
 	yo typescript-generator
 	? Generator name: (AwesomeGenerator) :
 
