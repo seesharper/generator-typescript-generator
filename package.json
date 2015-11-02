@@ -1,7 +1,7 @@
 {
   "name": "generator-typescript-generator",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.2",
+  "description": "A generator to generate generators based on TypeScript",
   "files": [
     "app",
     "router"
