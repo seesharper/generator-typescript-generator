@@ -18,7 +18,7 @@ var TypeScriptGenerator = (function (_super) {
         var done = this.async();
         var options = {
             name: "name",
-            default: "MyTypeScriptGenerator",
+            default: this.appname,
             type: "input",
             message: "Generator name"
         };

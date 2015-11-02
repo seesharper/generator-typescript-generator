@@ -8,7 +8,7 @@ class TypeScriptGenerator extends yo.generators.Base {
 
 	constructor(args : any, options: any) {
         super(args, options);
-        this.log(yosay("Welcome to the typescript generator generator"));
+        this.log(yosay("Welcome to the typescript generator generator."));
     }
 
 	prompting() : void {
@@ -16,7 +16,7 @@ class TypeScriptGenerator extends yo.generators.Base {
 
 		var options: yo.IPromptOptions = {
 			name: "name",
-			default: "MyTypeScriptGenerator",
+			default: this.appname,
 			type: "input",
 			message: "Generator name"
 		}
