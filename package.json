@@ -1,7 +1,12 @@
 {
   "name": "generator-typescript-generator",
-  "version": "0.1.5",
-  "description": "A generator to generate generators based on TypeScript",
+  "version": "0.1.7",
+  "description": "A generator to generate generators based on TypeScript",  
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/seesharper/generator-typescript-generator"
+  },
   "files": [
     "app",
     "router"
